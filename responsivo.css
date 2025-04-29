@@ -1,0 +1,561 @@
+@media (max-width: 800px) {
+  nav {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+    body {
+      margin: 0px;
+      background-color: rgb(19, 19, 63);
+      overflow-x:hidden;
+    }
+
+    nav {
+      height: 45px;
+      width: 100%;
+      display: flex;
+      text-align: center;
+      background-color: rgb(11, 38, 189, 0.7);
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-right: 0px;
+      margin-left: 0px;
+      box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    }
+
+
+
+
+    nav h1 {
+      text-align: center;
+      display: inline;
+      text-transform: uppercase;
+      font-family: sans-serif;
+      font-size: 15px;
+      letter-spacing: 10px;
+      color: rgb(255, 255, 255);
+      font-weight: 300;
+      border-left: 1px solid;
+      border-right: 1px solid;
+      padding-left: 14px;
+      padding-right: 5px;
+    }
+
+    header {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .foto img {
+      margin: 0px;
+      margin-top: 25%;
+    }
+
+    .frase {
+      margin: 0px;
+    }
+
+    .frase h2 {
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      font-family: sans-serif;
+      margin-bottom: 10px;
+    }
+
+    b {
+      color: rgb(255, 255, 255);
+    }
+
+    .frase p {
+      text-align: justify;
+      font-size: 18px;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+    }
+
+    .botaover {
+      background-color: yellow;
+      border-radius: 5px;
+      margin-top: 0px;
+      border: 1px solid rgb(5, 4, 64);
+      padding: 5px;
+      padding-left: 5px;
+      padding-right: 10px;
+      font-size: 10px;
+      font-weight: 700;
+    }
+  
+
+  .menuPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-left: -17px;
+  }
+
+  li {
+    font-size: 15px;
+    font-weight: 300;
+    border-bottom: 1px solid;
+    padding: 2px;
+    padding-top: 5px;
+  }
+
+  .contac {
+    border: none;
+    margin-top: 7px;
+    border: 0.1px solid;
+  }
+
+  .fumo2 {
+    margin: 0px;
+  }
+
+  .titulopro {
+    margin-top: 30%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    font-family: sans-serif;
+
+  }
+
+  .linha {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+  }
+
+  /* projectos */
+
+  .todopro {
+   
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 1em;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .marcas,
+  .flyers,
+  .embalagens,
+  .outros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    min-height: 120px;
+    min-width: 120px;
+    padding: 3px;
+    background-image: linear-gradient(45deg, rgb(12, 5, 218), rgb(41, 41, 177));
+    
+  }
+
+  .marcas p,
+  .flyers p,
+  .embalagens p,
+  .outros p {
+    font-size: 15px;
+    margin: 3px;
+   color: white;
+   font-family: sans-serif;
+   text-transform: uppercase;
+
+  }
+
+  footer {
+    margin-top: 30%;
+    height: 90vh;
+    gap: 2rem;
+    padding: 2%;
+    background-image: linear-gradient(-120deg, rgb(18, 15, 112), rgb(3, 62, 173));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: -40px;
+  }
+
+  footer p {
+    color: white;
+    font-family: sans-serif;
+    gap: 3rem;
+  }
+
+  .fb,
+  .sapp,
+  .insta {
+    width: 30px;
+  }
+
+  .fb {
+    border-radius: 5px;
+  }
+
+  .nossasredes {
+    margin-top: 200px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+  }
+
+  .icones {
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-left: 30px;
+  }
+
+  .icones b {
+    color: rgb(68, 255, 0);
+  }
+
+  .icones2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: -90px;
+  }
+
+  .sobretema li {
+    font-family: sans-serif;
+    list-style: none;
+    font-weight: 500;
+    border: none;
+    float: left;
+    right: 120px;
+  }
+
+  section{
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+
+
+.footerProjecto{
+
+ }
+  
+ .footerProjecto img{
+  width: 100%;
+  padding: 20px 100px;
+  background-color: white;
+  margin-right: -20px;
+
+ }
+
+ .titulosnoprojecto{
+  color: rgb(255, 255, 255);
+  margin: 15%;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+ }
+
+ .tudoimagem{
+  margin-top: 20%;
+ }
+
+
+
+
+
+ 
+ .galeria img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+ }
+ .galeria img:hover {
+  transform: scale(1.03);
+  opacity: 0.8;
+  z-index: -999;
+ }
+ /* Lightbox (imagem em tela cheia) */
+ #lightbox {
+  position: fixed; /* Fixa na tela */
+  top: 0;
+  left: 0;
+  width: 95%;
+  background-color: rgb(0, 0, 0, 0.9); /* Fundo escuro */
+  display: none; /* Inicialmente escondido */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+ }
+ #lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  
+ }
+
+ /* .footerProjecto{
+  height: 50px;
+  margin-bottom: -20px;
+  background-color: white;
+  margin-right: -50px;
+
+ }
+  
+ .footerProjecto img{
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 100%;
+ } */
+
+ 
+
+ .titulosnoprojecto{
+  color: white;
+  margin: 5%;
+  text-transform: uppercase;
+  font-family: sans-serif;
+ }
+
+ .galeria{
+  column-count: 3;
+  column-gap: 10px;
+  margin: 20px;
+  margin-bottom: -230px;
+  width: 90%;
+  height: 700px;
+  
+
+ }
+
+ .galeria1{
+  column-count: 3;
+  column-gap: 10px;
+  margin: 20px;
+  margin-bottom: -230px;
+  width: 90%;
+  height: 1000px;
+  
+
+ }
+
+ 
+.galeria1 img{
+  border-radius: 3px;
+}
+
+.detalhes{
+  margin-top: 100px;
+}
+
+ .detalhes{
+  margin-left:4%;
+  margin-top: 8%;
+  color: white;
+  margin-bottom: -10px;
+  font-family: sans-serif;
+  font-size: 15px;
+
+ }
+
+ 
+
+
+                                            /* IDENTIDADE VISUAL, TEXTO */
+                                            .prince h3{
+                                              font-size: 10px;
+                                              font-family: sans-serif;
+                                              color: #d81b02;
+                                              text-transform: uppercase;
+                                            }
+                                            .princejo h3{
+                                              font-size: 10px;
+                                              font-family: sans-serif;
+                                              color: #ffffff;
+                                              text-transform: uppercase;
+                                            }
+                                            .princeimuf h3{
+                                              font-size: 10px;
+                                              text-transform: uppercase;
+                                              font-family: sans-serif;
+                                              color: #ffffff;
+                                            }
+                                            .princelanga h3{
+                                              font-size: 10px;
+                                              font-family: sans-serif;
+                                              color: #ffffff;
+                                              text-transform: uppercase;
+                                            
+                                            }
+                                            .princemary h3{
+                                              font-size: 10px;
+                                              font-family: sans-serif;
+                                              color: #790038;
+                                              text-transform: uppercase;
+                                            
+                                            }
+                                            
+                                            
+                                            .princeplumber h3{
+                                              font-size: 10px;
+                                              font-family: sans-serif;
+                                              color: #038a4b;
+                                              text-transform: uppercase;
+                                            
+                                            }
+                                            .princeraimaly h3{
+                                              font-size: 10px;
+                                              font-family: sans-serif;
+                                              color: #100150;
+                                              text-transform: uppercase;
+                                            
+                                            }
+                                            .princejo img{
+                                              padding: 50px;
+                                              width: 60%;
+                                              
+                                            }
+                                            
+                                            
+                                            .princemary{
+                                              display: flex;
+                                              justify-content: center;
+                                              align-items: center;
+                                              background-color: #fcd865;
+                                              gap: 2rem;
+                                              padding-left: 2rem;
+  
+                                            }
+                                            
+                                            .princemary img{
+                                              padding: 20px;
+                                              width: 35%;
+                                            }
+                                             
+                                            
+                                            .princelanga{
+                                              display: flex;
+                                              justify-content: center;
+                                              align-items: center;
+                                              background-color: #264753;
+                                              gap: 2rem;
+                                              padding-left: 2rem;
+                                              
+                                            }
+                                            
+                                            .princelanga img{
+                                              padding: 20px;
+                                              width: 60%;
+                                            }
+                                            
+                                            .princeplumber{
+                                              display: flex;
+                                              justify-content: center;
+                                              align-items: center;
+                                              background-color: #ffffff;
+                                              gap: 2rem;
+                                              padding-left: 2rem;
+                                             
+                                              
+                                            }
+                                            
+                                            .princeplumber img, .princeimuf img, .prince img{
+                                              padding: 20px;
+                                              width: 60%;
+                                            }
+                                            
+                                            .princeimuf{
+                                              display: flex;
+                                              justify-content: center;
+                                              align-items: center;
+                                              background-color: #d03600;
+                                              gap: 2rem;
+                                              padding-left: 2rem;
+                                              
+                                            }            
+                                            .princewamini h3{
+                                              font-size: 10px;
+                                              font-family: sans-serif;
+                                              color: #ffffff;
+                                              text-transform: uppercase;
+                                            
+                                            }
+                                             
+                                            .princewamini img{
+                                              padding: 20px;
+                                              width: 60%;
+                                            }
+                                            
+
+                                            .detalhes{
+                                              margin-top: 70px;
+                                            }
+
+section{
+  width: 0px;
+}
+
+
+
+
+.sobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 450
+
+
+}
+
+
+
+.sobredetalhes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 10%;
+  margin-top: -40px;
+
+}
+
+
+.sobredetalhes p{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: justify;
+  color: #130358
+}
+
+.sobredetalhes h2{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: start;
+  color: #ff7b00;
+  margin-top: 60px;
+}
+
+
+}
